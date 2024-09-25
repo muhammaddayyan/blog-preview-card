@@ -1,0 +1,88 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+ body{
+background-color: #FCD233;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card{
+    /* color: white; */
+    box-shadow: 6px 6px 0px 3px  #000;
+    width: 300px;
+    padding: 20px;
+    /* align-items: center; */
+    /* text-align: center; */
+    background-color: white;
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cont .tag{
+    /* color: #000; */
+    background-color: #FCD233;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    font-weight: 800;
+    border-radius: 6px;
+    /* justify-content: end; */
+}
+
+.Pub{
+    /* color: #000; */
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+h1{
+    /* color: #000; */
+    font-size: 24px;
+    /* font-weight: 900; */
+    /* margin: 10px 0; */
+    margin-top: 14px;
+}
+
+.desc{
+margin-bottom: 12px;
+margin-top: 12px;
+color: #444;
+font-size: 15px;
+
+}
+
+.aut{
+    display: inline-flex;
+    /* gap: 10px; */
+    /* margin-top: 1; */
+    align-items: center;
+}
+
+.Avater{
+height: 43px;
+margin-bottom: 17px;
+width: 43px;
+margin-top: 12px;
+margin-right: 15px;
+
+}
+
+span{
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
