@@ -54,6 +54,7 @@ h1{
     font-size: 24px;
     /* font-weight: 900; */
     /* margin: 10px 0; */
+    cursor: pointer;
     margin-top: 14px;
 }
 
@@ -85,4 +86,8 @@ span{
     font-size: 14px;
     color: #000;
     font-weight: 600;
+}
+
+h1:hover{
+    color: #FCD233;
 }
